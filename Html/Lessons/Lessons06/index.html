@@ -1,7 +1,5 @@
-"use strict"
 <!DOCTYPE html>
 <html>
-
 <head>
     <meta charset="UTF-8">
     <title>Lessons06</title>
@@ -10,16 +8,23 @@
     <form>
         <fieldset>
             <legend>Многострочные текстовые поля</legend>
-            <label for="3">Текст</label>
-            <textarea id="3">
+            <label for="4">Текст 1</label>
+            <textarea id="4">
             </textarea>
+            <br />
+            <label for="3">Текст 2</label>
+            <textarea id="3" placeholder="Введите текст"></textarea>
         </fieldset>
         <fieldset>
             <legend>Выпадающие списки</legend>
-            <select>
+            <label>Список</label>
+            <select size="2" multiple>
+                <option disabled>Выбор стихии</option>
                 <option>Вода</option>
                 <option>Огонь</option>
                 <option>Воздух</option>
+                <option>Молния</option>     
+                <option>Земля</option>
             </select>
         </fieldset>
     </form>
