@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Форма</title>
+    </head>
+    <body>
+        <form>
+            <fieldset>
+                <legend>Параметры автомобиля</legend>
+                <P>
+                    <label>Марка автомобиля:
+                        <input type="text"></label>
+                </P>
+                <p>
+                    <label>Объем двигателя, см<sup>3</sup>
+                        <input type="text" placeholder="1900"></label>
+                </p>
+                <p>
+                    Область:
+                    <select size="1">
+                        <option value="brest">Брестская</option>
+                        <option value="gomel">Гомельская</option>
+                        <option value="mogilev">Могилевская</option>
+                        <option value="vitebsk">Витебская</option>
+                        <option value="grodno">Гродненская</option>
+                        <option value="minsk">Минская</option>
+                    </select>
+                </p>
+                <p>Тип КПП</p>
+                <p><input type="radio">Автомат
+                <br />
+                <input type="radio">Механика
+                </p>
+                <p>Двигатель
+                <br />
+                <input type="checkbox">Электро
+                <br />
+                <input type="checkbox">Дизель
+                <br />
+                <input type="checkbox">Бензин
+                <br />
+                <input type="checkbox">Пропан-бутан
+                <br />
+                <input type="checkbox">Метан
+                </p>
+                <p>
+                    <label for="1">Описание</label>
+                </p>  
+                <p>  
+                    <textarea cols="30" rows="10" id="1"></textarea>
+                </p>
+                <p>
+                    <input type="submit" value="Отправить">&nbsp;<input type="reset" value="Очистить">
+                </p>
+            </fieldset>
+        </form>
+    </body>
+</html>

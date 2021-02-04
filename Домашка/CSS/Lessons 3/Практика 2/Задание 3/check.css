@@ -1,0 +1,10 @@
+#radio1:checked + label,
+#radio2:checked + label,
+#checkbox1:checked + label,
+#checkbox2:checked + label {
+    color: #ff0000;
+}
+#radio1:indeterminate + label,
+#radio2:indeterminate + label {
+    color: #0000ff;
+}

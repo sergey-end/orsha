@@ -1,0 +1,106 @@
+.conteiner {
+    margin: 0 auto;
+    width: 1000px;
+    height: 1180px;
+    font-size: 23px;
+    display: grid;
+    grid-template-columns: 10px 250px 70px 10px 155px 10px 155px 10px 60px 10px 240px 10px 10px;
+    grid-template-rows: 20px 250px 20px 100px 10px 150px 10px 150px 10px 150px 10px 150px;
+}
+.one {
+    grid-column-start: 1;
+    grid-column-end: 14;
+    grid-row-start: 1;
+    grid-row-end: 4;
+    background: rgb(8, 78, 78);
+}
+.two {
+    grid-column-start: 10;
+    grid-column-end: 12;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    background: orange;
+}
+.three {
+    grid-column-start: 1;
+    grid-column-end: 14;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    background: rgb(3, 3, 73);
+    color: white;
+}
+.four {
+    grid-column-start: 2;
+    grid-column-end: 6;
+    grid-row-start: 6;
+    grid-row-end: 7;
+    background: rgb(0, 255, 255);
+}
+.five {
+    grid-column-start: 7;
+    grid-column-end: 13;
+    grid-row-start: 6;
+    grid-row-end: 7;
+    background: rgb(0, 255, 255);
+}
+.six {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 8;
+    grid-row-end: 9;
+    background: blueviolet;
+    color: white;
+}
+.seven {
+    grid-column-start: 3;
+    grid-column-end: 11;
+    grid-row-start: 8;
+    grid-row-end: 9;
+    background: white;
+}
+.eight {
+    grid-column-start: 11;
+    grid-column-end: 13;
+    grid-row-start: 8;
+    grid-row-end: 9;
+    background: blueviolet;
+    color: white;
+}
+.nine {
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 10;
+    grid-row-end: 11;
+    background: rgb(0, 255, 255);
+}
+.ten {
+    grid-column-start: 5;
+    grid-column-end: 8;
+    grid-row-start: 10;
+    grid-row-end: 11;
+    background: rgb(0, 255, 255);
+}
+.eleven {
+    grid-column-start: 9;
+    grid-column-end: 13;
+    grid-row-start: 10;
+    grid-row-end: 11;
+    background: rgb(0, 255, 255);
+}
+.twelve {
+    grid-column-start: 1;
+    grid-column-end: 14;
+    grid-row-start: 12;
+    grid-row-end: 13;
+    background: rgb(3, 27, 31);
+    color: white;
+}
+.one, .two, .four, .five, .six, .seven, .eight, .nine, .ten, .eleven, .twelve {
+    display: flex;
+    justify-content: center;
+}
+.three {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
