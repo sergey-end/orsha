@@ -1,0 +1,10 @@
+table:nth-of-type(2) {
+    caption-side: bottom;
+    border-collapse: separate;
+    border-spacing: 4px;
+    empty-cells: hide;
+}
+table, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}

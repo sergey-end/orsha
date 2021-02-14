@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Данные о клиенте</title>
+        <style>
+            table {
+                width: 700px;
+                margin: auto;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 16px;
+            }
+            td {
+                border: 1px solid #777;
+                padding: 7px;
+                background-color: #f0f8ff;
+            }
+            input[type="text"], textarea {
+                width: 450px;
+            }
+            input[required]{
+                border: 1px solid #ff0000;
+                box-shadow: 0px 0px 3px #ff0000;
+            }
+            caption {
+                text-align: center;
+                font-weight: bold;
+            }
+            td[colspan="2"] {
+                text-align: center;
+                font-weight: bold;
+            }
+            tfoot {
+                color: red;
+                font-weight: normal;
+            }
+        </style>
+    </head>
+    <body>
+        <table>
+            <caption>Данные о клиенте</caption>
+            <thead>
+                <tr>
+                    <td colspan="2">Основные данные</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Фамилия</td>
+                    <td><input type="text" required></td>
+                </tr>
+                <tr>
+                    <td>Имя</td>
+                    <td><input type="text" required></td>
+                </tr>
+                <tr>
+                    <td>Отчество</td>
+                    <td><input type="text" required></td>
+                </tr>
+                <tr>
+                    <td>Дата рождения</td>
+                    <td><input type="date"></td>
+                </tr>
+                <tr>
+                    <td>Комментарий</td>
+                    <td><textarea></textarea></td>
+                </tr>
+                <tr>
+                    <td colspan="2">Контакты</td>
+                </tr>
+                <tr>
+                    <td>Адрес</td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td>Телефон</td>
+                    <td><input type="tel" required></td>
+                </tr>
+                <tr>
+                    <td>e-mail</td>
+                    <td><input type="email"></td>
+                </tr>
+                <tr>
+                    <td>Получать рассылку</td>
+                    <td><input type="checkbox"></td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="2">Обязательные для заполнения поля выделены красным</td>
+                </tr>
+            </tfoot>
+        </table>
+    </body>
+</html>

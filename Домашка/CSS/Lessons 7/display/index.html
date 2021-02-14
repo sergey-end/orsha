@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Display</title>
+		<style>
+			div {
+				display: inline-block;
+				width: 110px;
+				height: 150px;
+			}
+			span {
+				display: block;
+				text-align: center;
+				height: 15%;
+			}
+			.data {
+				background-color: rgb(39, 169, 209);
+				padding-top: 4px;
+				color: white;
+				font-weight: bold;
+			}
+			.c {
+				padding-top: 80%;
+				font-size: 20px;
+			}
+			div:hover {
+			box-shadow: 0 0 10px rgba(0, 0, 0, 0.808);
+			}
+		</style>
+	</head>
+	<body>
+		<div style="background: url(weather-sun.jpg) no-repeat center">
+			<span class="data">31.08</span>
+			<span class="c">+20&#176;</span>
+		</div>
+		<div style="background: url(weather-snow.jpg) no-repeat center;">
+			<span class="data">01.09</span>
+			<span class="c">-3&#176;</span>
+		</div>
+		<div style="background: url(weather-blizzard.jpg) no-repeat center">
+			<span class="data">02.09</span>
+			<span class="c">-10&#176;</span>
+		</div>
+	</body>
+</html>

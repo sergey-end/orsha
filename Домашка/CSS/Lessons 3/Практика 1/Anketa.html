@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Анкета</title>
+        <meta charset="UTF-8">
+        <style>
+            input[type="text"]:hover {
+                box-shadow: 0px 0px 10px orange;
+            }
+            h1 {
+                text-align: center;
+            }
+            table {
+                border-collapse: collapse;
+                border: 2px solid black;
+                width: 700px;
+                margin: 10px auto;
+            }
+            td {
+                border: 2px solid black;
+                line-height: 25px;
+            }            
+        </style>
+    </head>
+    <body>
+        <h1>Анкета</h1>
+        <table>
+            <tr>
+                <td>Фамилия</td>
+                <td>
+                    <input type="text" size="45" name="family">
+                </td>
+            </tr>
+            <tr>
+                <td>Имя</td>
+                <td>
+                    <input type="text" size="45" name="user_name">
+                </td>
+            </tr>
+            <tr>
+                <td>Отчество</td>
+                <td>
+                    <input type="text" size="45" name="father">
+                </td>
+            </tr>
+            <tr>
+                <td>Пол</td>
+                <td>
+                    <input type="radio" name="pol" value="1">Мужской
+                </br>
+                    <input type="radio" name="pol" value="2">Женский
+                </td>
+            </tr>
+            <tr>
+                <td>Дата рождения</td>
+                <td>
+                    <input type="date" name="birth">
+                </td>
+            </tr>
+            <tr>
+                <td>Владею языками:</td>
+                <td>
+                    <input type="checkbox" name="lg" value="Bel">Белорусский
+                </br>
+                    <input type="checkbox" name="lg"value="Rus">Русский
+                </br>
+                    <input type="checkbox" name="lg"value="angl">Английский
+                </br>
+                    <input type="checkbox" name="lg"value="Chi">Китайский        
+                </td>
+            </tr>
+            <tr>
+                <td>Адрес места жительства (пребывания)</td>
+                <td>
+                    <input type="text" size="45" name="home">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <button type="submit">Отправить данные</button>
+                </td>
+            </tr>
+        </table>
+    </body>
+</html>

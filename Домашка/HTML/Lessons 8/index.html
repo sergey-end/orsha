@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Форма</title>
+    </head>
+    <body>
+        <h1>Cleverland</h1>
+        <h2>Формы. Элементы форм</h2>
+        <form>
+            <fieldset>
+                <legend>Данные пользователя</legend>
+                <p>
+                    <label for="1">Логин:</label>
+                    <input id="1" type="text" placeholder="Login" name="user">
+                </p>
+                <p>
+                    <label>Пароль:
+                        <input type="password" placeholder="password" name="password">
+                    </label>
+                </p>
+                <p>
+                    <input type="submit" value="Вход">
+                </p>
+            </fieldset>
+        </form>
+        <form>
+            <fieldset>
+                <legend>Пожелания</legend>
+                <p>
+                    <select size="1" name="city">
+                        <option disabled>Выберите город</option>
+                        <option value="Orsha">Орша</option>
+                        <option value="Vitebsk">Витебск</option>
+                        <option value="Minsk">Минск</option>
+                        <option value="Moscow">Москва</option>
+                    </select>
+                </p>
+                <p>
+                    <select size="4" name="garden" multiple>
+                        <option disabled>Выберете что хотели иметь</option>
+                        <option value="car">Машина</option>
+                        <option value="house">Свой дом</option>
+                        <option value="flat">Квартира</option>
+                        <option selected value="garden">Сад</option>
+                        <option value="ten-children">10 детей</option>
+                        <option value="whife">Жена</option>
+                    </select>
+                </p>
+                <p>
+                    <label for="2">Просите что хотите</label>
+                    <input type="text" id="2">
+                </p>
+                <p>
+                    <label><input type="checkbox" name="text" value="text">Текст</label>
+                </p>
+                <p>
+                    <textarea placeholder="Много текста" cols="30" rows="10" name="aboutyou"></textarea>
+                </p>
+                <p>
+                    <input type="submit" value="Отправить">
+                </p>
+            </fieldset>
+        </form>
+    </body>
+</html>
